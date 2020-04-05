@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DoorAndWindow": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

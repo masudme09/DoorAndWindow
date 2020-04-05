@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcCoreMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcCui">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcCui.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Acdbmgd">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcDbMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="acdbmgdbrep">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\acdbmgdbrep.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcDx">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcDx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="acmgd">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcMr">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcMr.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcTcMgd">
+      <HintPath>..\..\AutoCADHelp\packages\AutoCAD-2017.Net.Base.1.0.0\lib\net46\AcTcMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
